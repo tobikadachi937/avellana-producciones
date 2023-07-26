@@ -22,6 +22,7 @@ p{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);  
+    z-index: 5;
   }
   
   .icon-bar a {
@@ -147,12 +148,26 @@ p{
     margin-top: -36px;
 }
 
+@media screen and (min-width: 1240px) {
+    .imgheroe {
+        position: absolute;
+        top: -500px;
+    }
+    
+    .imgheroe1 {
+        position: absolute;
+        top: -300px;
+    }
+}
+
+
+
 /*Subtitulo start*/
 
 .subtitulo {
     font-size: 20px;
     color: var(--purple-dark);
-    font-family: 'Noto Serif', serif;
+    font-family: 'Segoe Ui', serif;
     font-weight: 700;
     z-index: 1;
     text-transform: uppercase;
@@ -182,7 +197,7 @@ p{
 .separador {
     width: 100%;
     height: 350px;
-    background-image: url('https://raw.githubusercontent.com/tobikadachi937/avellana-producciones/main/kelly-sikkema-HwU5H9Y6aL8-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -348,5 +363,3 @@ textarea{
 
 /*contact termina*/
 
-
-  
