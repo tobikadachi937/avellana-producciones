@@ -144,21 +144,7 @@ p{
 
 /*Hero Start*/
 
-#carouselExampleCaptions{
-    margin-top: -36px;
-}
 
-@media screen and (min-width: 1240px) {
-    .imgheroe {
-        position: absolute;
-        top: -500px;
-    }
-    
-    .imgheroe1 {
-        position: absolute;
-        top: -300px;
-    }
-}
 
 
 
